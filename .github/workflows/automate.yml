@@ -21,6 +21,8 @@ jobs:
         run: deno run --allow-read --allow-write enchantment.ts
       - name: Convert to leet code
         run: deno run --allow-read --allow-write leet.ts
+      - name: Calculate
+        run: deno run --allow-read --allow-write calculate.ts
       - name: Commit changes
         uses: EndBug/add-and-commit@v4
         with:
