@@ -1,8 +1,6 @@
 export enum Language {
   ENGLISH_STUPEFIED = "en",
-  ENGLISH = "en_US",
-
-  SPANISH = "es",
+  ENGLISH = "en_US"
 }
 
 export interface LanguageEntry {
@@ -29,6 +27,4 @@ export const Languages: { [key in Language]: LanguageEntry } = {
     i18n: "en_US",
     dayjs: "en",
   },
-
-  es: { display: "Español", emoji: "🇪🇸", i18n: "es" },
 };

@@ -1,1 +1,4 @@
-export default [];
+export default [
+    "en",
+    "en_US"
+];
