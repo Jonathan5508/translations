@@ -37,7 +37,7 @@ await Deno.writeTextFile("incomplete.js", 'export default ' + JSON.stringify(bel
 await Deno.writeTextFile("verified.js", 'export default ' + JSON.stringify(Object.keys(contributors), undefined, '\t'));
 
 // generate new README
-import { Languages } from './Languages';
+import { Languages } from './Languages.ts';
 
 const u = (s) => `[@${s}](https://github.com/${s})`;
 
