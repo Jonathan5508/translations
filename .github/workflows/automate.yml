@@ -17,8 +17,6 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - name: Bottomify translations
-        run: deno run --allow-read --allow-write bottomify.ts
       - name: Convert to enchantment table
         run: deno run --allow-read --allow-write enchantment.ts
       - name: Convert to leet code
