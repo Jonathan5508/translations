@@ -1,1 +1,1 @@
-export default ["es"];
+export default [];
